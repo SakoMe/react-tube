@@ -1,0 +1,73 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.list-group-item {
+    padding: 0px;
+    cursor: pointer;
+}
+
+.list-group-item:hover {
+    background-color: rgba(146, 101, 164, 0.13);
+}
+
+.media-heading {
+    font-size: 14px;
+    padding: 0px 5px;
+}
+
+.form-group {
+    margin-top: 1rem;
+}
+
+.details {
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    height: 48px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgba(146, 101, 164, 0.13);
+}
+
+.lily-nav {
+    background-color: #9265a5;
+}
+
+.lily-brand {
+    color: #cdeaf3;
+    font-size: 22px;
+}
+
+
+
+@media screen and (max-width: 1025px) {
+    .details {
+        height: 115px;
+        padding-top: 37px;
+    }
+    .media-heading {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .list-group {
+        margin-top: 10px;
+    }
+    h5 {
+        font-size: 12px;
+    }
+    .details {
+        height: 48px;
+        padding-top: 10px;
+    }
+    .media-heading {
+        font-size: 10px;
+    }
+}
